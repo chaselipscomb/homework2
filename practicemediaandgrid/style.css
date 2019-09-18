@@ -1,0 +1,63 @@
+.divone {
+    margin: 0 auto;
+    height:470px;
+    width: 500px;
+}
+.row {
+    height: 35px;
+}
+
+header {
+    background-color: rgb(53, 106, 124);
+    width: 500px;
+    height: 35px;
+}
+aside {
+    background-color:green;
+    width: 250px;
+    height: 100px;
+    
+}
+nav {
+    background-color: green;
+    width: 250px;
+    height: 100px;
+    
+}
+main {
+    background-color: rgb(248, 11, 51);
+    width: 250px;
+    height: 200px;
+}
+footer {
+    background-color: rgb(70, 150, 177);
+    width: 500px;
+    height: 35px;
+}
+.col-lg-6 {
+    margin: 0px;
+    padding: 0px;
+}
+.row2 {
+    height: 200px;
+    margin: 0px;
+}
+.col-sm-12 {
+    margin: 0px;
+    padding: 0px;
+
+}
+@media (max-width: 992px) {
+.col-sm-12 {
+    height: 200px;
+}
+footer {
+    width: 250px;
+}
+header {
+    width: 250px;
+}
+.row2 {
+    height: 400px;
+}
+}
