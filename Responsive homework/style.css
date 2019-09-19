@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("images/concrete_seamless.png");
 }
 
 * {
@@ -122,6 +122,7 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  
 }
 
 .main-section {
@@ -132,6 +133,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+
 }
 
 /* portfolio page */
@@ -264,6 +266,7 @@ input[type=submit] {
       .main-section {
         width: 100%;
         background-color: #6b6868;
+        
       }
       nav {
         margin-right:20px;
@@ -271,13 +274,17 @@ input[type=submit] {
       body {background-color: rgb(146, 146, 224)}
 
           }
+         
     @media (max-width:300px) {
      
       #masthead {
         background-color: black;
+       
       }
       .main-section {
+       
         background-color:black;
+        
       }
       body {
         margin-left: -20px;

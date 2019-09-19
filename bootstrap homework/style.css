@@ -24,6 +24,9 @@
     margin-right: 0px;
     align-content: right;
 }
+#pagesmargin { 
+    position: absolute;
+    left: 70%;}
 #igaveuplol {
     color:white;
 }
@@ -60,6 +63,26 @@ img {
     margin-top: 15px;
     margin-left: 130px;
 }
-#boxone {
-   
+@media (max-width: 1050px) {
+    .content {
+        width: 600px;
+    }
+    .container {
+        width: 600px;
+    }
+    img {
+        margin-left: -200px;
+    }
+@media (max-width: 750px) {
+    .content {
+        width: 400px;
+        position: absolute;
+        left: 75px;
+    }
+    .container {
+        width: 400px;
+    }
+    
+
+
 }
